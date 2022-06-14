@@ -1,0 +1,389 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+
+
+
+/*index page start*/
+.header{
+	width: 100%;
+	height: 109vh;
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('img/sunkoshi.jpg');
+	background-size: cover;	
+	background-position: center;
+}
+
+.navbar{
+	width: 1200px;
+	float: left;
+	height: 70px;
+}
+
+.logo img{
+	float: left;
+	width: 400px;
+}
+
+.title{
+	width: 90%;
+	color: white;
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+
+}
+
+.title h1{
+	font-size: 300%
+}
+
+.title p{
+	margin: 10px 0 40px;
+	font-size: 14px;
+	color: white;
+
+}
+
+.button{
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+ .btn{
+ 	border: 1px solid #fff;
+ 	padding: 10px 30px;
+ 	margin: 5px;
+ 	color: #fff;
+ 	text-decoration: none;
+ 	transition: 0.6s ease;
+ 	cursor: pointer;
+ }
+
+ .btn:hover{
+ 	background-color: rgb(253, 252, 252);
+	 color: black;
+ }
+
+.menu{
+	flex: 1;
+	text-align: right;
+}
+
+/* it is also a part of all pages (start) */
+.menu ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 8px 12px;
+	position: relative;
+	margin-left: 40px;
+	margin-top: 40px;
+}
+
+.menu ul li a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 15px;
+}
+
+.menu ul li::after{
+	content: '';
+	width: 0%;
+	height: 2px;
+	background: red;
+	display: block;
+	margin: auto;
+	transition: 0.5s;
+}
+
+.menu ul li:hover::after{
+	width: 100%;
+}
+
+/* it is also a part of all pages (end) */
+
+.footer-max{
+	text-align: center;
+}
+/*index page end*/
+
+
+
+
+
+/* personal page open */
+.mini-header{
+	width: 100%;
+	height: 45vh;
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('img/personal.jpg');
+	background-size: cover;	
+	background-position: center;
+}
+
+.mini-header h1{
+	width: 90%;
+	color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	padding-bottom: 20%;
+	font-size: 50px;
+	text-align: center;
+}
+
+.mini-header p{
+	width: 90%;
+	color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	padding-bottom: 14%;
+	font-size: 13px;
+	text-align: center;
+}
+
+/* footer is also a part of ABOUT_US */
+.footer{
+	width: 100%;
+	text-align: center;
+	padding: 30px 0;
+	background-color: lightgrey;
+}
+
+/* container is also a part of ABOUT_US */
+.container{
+	font-size: 12px;
+	text-align: center;
+}
+/* personal page close */
+
+
+
+
+
+/* about us page */
+.sub-header{
+	height: 45vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(img/background.jpg);
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	color: #fff;
+}
+
+.sub-header h1{
+	width: 90%;
+	color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	padding-bottom: 20%;
+	font-size: 60px;
+}
+
+.sub-header p{
+	width: 90%;
+	color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	padding-bottom: 14%;
+	font-size: 12px;
+	text-align: center;
+}
+/* about us page end */
+
+
+
+
+
+
+/* portfolio page start */
+.por-header{
+	height: 45vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(img/portfolio.jpg);
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	color: #fff;
+}
+
+.por-header h1{
+	width: 90%;
+	color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	padding-bottom: 20%;
+	font-size: 60px;
+}
+
+.por-header p{
+	width: 90%;
+	color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	padding-bottom: 14%;
+	font-size: 12px;
+	text-align: center;
+}
+
+.statistics-col{
+	flex-basis: 31%;
+	border-radius: 10px;
+	margin-bottom: 5%;
+	text-align: center;
+}
+
+.statistics-col p{
+	text-align: left;
+	margin-left: 50px;
+	margin-right: 80px;
+}
+.statistics-col h2{
+	text-align: left;
+	margin-left: 50px;
+}
+.statistics-col img{
+	width: 40%;
+	border-radius: 10px;
+}
+
+/* contact us  */
+.location{
+	width: 80%;
+	margin: auto;
+	padding: 80px 0;
+}
+
+.location iframe{
+	width: 100%;
+}
+
+.contact-us{
+	width: 80%;
+	margin: auto;
+}
+
+.contact-col{
+	flex-basis: 48%;
+	margin-bottom: 30px;
+
+}
+
+.contact-col div{
+	display: flex;
+	align-items: center;
+	margin-bottom: 40px;
+}
+
+.contact-col div .fa{
+	font-size: 28px;
+	color: red;
+	margin: 10px;
+	margin-right: 30px;
+}
+
+
+
+.contact-col div p{
+	font-size: 13px;
+	margin-bottom: 5px;
+	color: #555;
+	font-weight: 400;
+}
+
+.contact-col input, .contact-col textarea{
+	width: 100%;
+	padding: 15px;
+	margin-bottom: 17px;
+	outline: none;
+	border: 1px solid #ccc;
+}
+
+.contact-header{
+	height: 45vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(img/contactus.jpg);
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	color: #fff;
+}
+
+.contact-header h1{
+	width: 90%;
+	color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	padding-bottom: 20%;
+	font-size: 60px;
+}
+
+.contact-header p{
+	width: 90%;
+	color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	padding-bottom: 14%;
+	font-size: 12px;
+	text-align: center;
+}
+
+
+/* icon for all pages start */
+.icons .fa{
+	margin: 0 13px;
+	cursor: pointer;
+	padding: 18px 0;
+	text-align: center;
+}
+
+.icons .fa:hover{
+	color: blue;
+}
+
+.icons .fa.fa-instagram:hover{
+	color: red;
+}
+
+.icons .fa.fa-youtube:hover{
+	color: red;
+}
+
+.icons .fa.fa-github:hover{
+	color: rgb(41, 41, 41);
+}
+/* icon for all pages start */
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
